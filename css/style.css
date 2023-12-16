@@ -1,5 +1,62 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+}
+
+h2.about::before {
+  content: "\2705";
+  position: absolute;
+  left: 412px;
+  top: -2px;
+  font-size: 1.3rem;
+}
+
+h2.education::before {
+  content: "\2705";
+  position: absolute;
+  left: 365px;
+  top: -2px;
+  font-size: 1.3rem;
+}
+
+h2.scills::before {
+  content: "\2705";
+  position: absolute;
+  left: 387px;
+  top: -2px;
+  font-size: 1.3rem;
+}
+
+h2.hobbies::before {
+  content: "\2705";
+  position: absolute;
+  left: 423px;
+  top: -2px;
+  font-size: 1.3rem;
+}
+
+h2.become::before {
+  content: "\2705";
+  position: absolute;
+  left: 276px;
+  top: -2px;
+  font-size: 1.3rem;
+}
+
+
 header{
   background-color: beige;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1{
+  text-align: center;
 }
 
 header img{
@@ -7,13 +64,50 @@ header img{
   height: 300px;
 }
 
-section {
-  background-color: darkgrey;
-  margin-top: 15px;
+.navigation {
+  border-bottom: 2px solid grey;
+  padding-bottom: 15px;
 }
 
+.navigation a {
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: indianred;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.navigation a:hover{
+  background-color: silver;
+}
+
+.section {
+  background-color: lightgray;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+li {
+  list-style:none;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+footer {
+  background-color: beige;
+  margin-top: 15px;
+  padding: 10px;
+}
 
 footer img{
   width: 40px;
   height: 40px;
 }
+
+footer p , h2{
+  margin: 0 auto;
+}
+

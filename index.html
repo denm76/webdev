@@ -7,27 +7,37 @@
   <title>Web developer card</title>
 </head>
 <body>
-  <header>
+  <header class="header">
+    <nav class="navigation">
+      <a href="#about">Обо мне</a>
+      <a href="#education">Образование</a>
+      <a href="#scills">Мои навыки</a>
+      <a href="#hobbies">Хобби</a>
+      <a href="#become">Путь самурая</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
     <h1>Денис Морозов. Web developer</h1>
     <img src="images/me.jpg" alt="Денис Морозов">
   </header>
   <main>
-    <section class="about">
-      <h2>
+    <section class="about_me section">
+      <h2 id="about" class="about">
         Обо мне
       </h2>
       <p>
         Родился в Мариуполе в 1976 году, тут же окончил среднюю школу, в последствии поступил в 1991 году в техникум по специальности <strong>"Разработка программного обеспечения для вычислительных комплексов."</strong>
       </p>
     </section>
-    <section class="education">
-      <h2>
+    <section class="my_education section">
+      <h2 id="education" class="education">
         Моё образование
       </h2>
-        Донецкий Государственный Технический Университет. "Экономика предприятия" 1994-1999   
+      <p>
+        Донецкий Государственный Технический Университет. "Экономика предприятия" 1994-1999 
+      </p>  
     </section>
-    <section class="experience">
-      <h2>
+    <section class="my_experience section">
+      <h2 id="scills" class="scills">
         Мои навыки
       </h2>
       <ul>
@@ -38,16 +48,16 @@
         <li>Java-android developing</li>
       </ul>
     </section>
-    <section class="hobbies">
-      <h2>
+    <section class="my_hobbies section">
+      <h2 id="hobbies" class="hobbies">
         Хобби
       </h2>
       <p>
         Люблю водить машину, у меня Lanos, также люблю рыбачить, но в последнее время не часто получается куда-либо выезжать, есть дача на море, но и туда не часто попадаю.
       </p>
     </section>
-    <section class="how_i_become">
-      <h2>
+    <section class="how_i_become section">
+      <h2 id="become" class="become">
         Как я становился разработчиком
       </h2>
       <ul>
@@ -61,7 +71,7 @@
     </section>
   </main>
   <footer>
-    <h2>
+    <h2 id="contacts">
       Контакты
     </h2>
     <p><a href="https://t.me/demariu"><img src="images/telegram.jfif" alt="Telegram"></a></p>
