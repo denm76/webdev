@@ -4,8 +4,46 @@ body {
   text-align: center;
 }
 
+header{
+  background-color: beige;
+  padding: 20px;
+}
+
+header img{
+  width: 300px;
+  height: 300px;
+}
+
+.navigation {
+  border-bottom: 2px solid grey;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation a {
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: indianred;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.navigation a:hover{
+  background-color: silver;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+}
+
 h2 {
   position: relative;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
 }
 
 h2.about::before {
@@ -19,7 +57,7 @@ h2.about::before {
 h2.education::before {
   content: "\2705";
   position: absolute;
-  left: 365px;
+  left: 358px;
   top: -2px;
   font-size: 1.3rem;
 }
@@ -43,43 +81,18 @@ h2.hobbies::before {
 h2.become::before {
   content: "\2705";
   position: absolute;
-  left: 276px;
+  left: 265px;
   top: -2px;
   font-size: 1.3rem;
 }
 
-
-header{
-  background-color: beige;
-  padding: 20px;
-  text-align: center;
+p, li {
+  font-family: Raleway, sans-serif;
 }
 
-header h1{
-  text-align: center;
-}
-
-header img{
-  width: 300px;
-  height: 300px;
-}
-
-.navigation {
-  border-bottom: 2px solid grey;
-  padding-bottom: 15px;
-}
-
-.navigation a {
-  margin: 0 10px;
-  font-size: 18px;
-  text-decoration: none;
-  color: indianred;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-.navigation a:hover{
-  background-color: silver;
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 .section {
@@ -110,4 +123,6 @@ footer img{
 footer p , h2{
   margin: 0 auto;
 }
+
+
 
